@@ -1,8 +1,9 @@
 // Code your solutions in this file
-const name = ["Ada", "Brendan", "Ali"];
 
-function writeCards(names) {
+
+function writeCards(names, occasion) {
+  let result = [];
   for (let i = 0; i < names.length; i++) {
-    console.log(`Thank you, ${name[0]}, for the wonderful surprise gift!`);
+    result.push(`Thank you, ${name[i]}, for the wonderful surprise gift!`);
   }
 }
