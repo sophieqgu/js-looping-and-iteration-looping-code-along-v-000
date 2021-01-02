@@ -1,4 +1,6 @@
 // Code your solutions in this file
+let names = ["Ada", "Brendan", "Ali"];
+let ocassion = ["Birtday"];
 
 
 function writeCards(names, occasion) {
